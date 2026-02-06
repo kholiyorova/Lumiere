@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-color:#FFFFFF;
+    width: 100%;
+    padding: 15px 80px;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    gap: 8px;
+}
+.logo-p a{
+    font-weight: 800;
+    font-size: 20px;
+    color: #000;
+}
+.links {
+    display: flex;
+    gap: 32px;
+}
+.links a{
+    color: #667085;
+}
+.links a:hover{
+    font-weight: 600;
+    color: #000;
+}
+.control {
+    display: flex;
+    gap: 16px;
+}
+.control .shop-icons{
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+.control a{
+    border: none;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    border-radius: 6px  ;
+    background-color: #2563EB;
+    transition: all 0.3s ease-in-out;
+}
+.control a:hover{
+    border: 1px solid #2563EB;
+    background-color: #FFFFFF;
+    color: #2563EB;
+    font-weight: 600;
+}
+.container{
+    background-color: #f6fbff;
+    padding: 0 80px;
+}
+.main-container{
+    padding: 88px 0;
+    display: flex;
+}
+.main-info{
+    width: 600px;
+}
+.main-info h1{
+    font-weight: 800;
+    font-size: 55px;
+}
+.main-info p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #667085;
+    margin: 22px 0;
+}
+.main-btns button{
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    padding: 14px 24px 14px 24px;
+    transition: all 0.3s ease-in-out;
+}
+.main-btns button:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #2563EB;
+    color: #2563EB;
+    cursor: pointer;
+}
+#nd-btn{
+    background-color: #fff;
+    padding: 13px 24px 14px 24px;
+    border: 1px solid #bcbdbe;
+    color: #000;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+#nd-btn:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #2563EB;
+    color: #2563EB;
+    cursor: pointer;
+}
+.main-img{
+    width: 600px;
+}
+.section{
+    background-color: #F1F5F9;
+    padding: 100px 80px 80px 80px;
+}
+.main-section .section-info{
+    width: 100%;
+}
+.section-info h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #0F1724;
+}
+.section-info p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #667085;
+    margin: 16px 0;
+}
+.section-categories{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.sec-cart{
+    width: 370px;
+    background-color: #FFFFFF;
+    margin-right: 32px;
+}
+.sec-cart .sec-img img{
+    width: 100%;
+}
+.sec-info{
+    padding: 0 15px;
+}
+.sec-info h4{
+    text-align: center;
+    color: #0F1724;
+    font-weight: 600;
+    font-size: 18px;
+}
+.sec-info p{
+    color: #667085;
+    margin: 7px 0;
+}
+.sec-icon i, a{
+    color: #2563EB;
+}
+.sec-icon i, a:hover{
+    cursor: pointer;
+}
+.shopping-part {
+    background-color: #f6fbff;
+    padding: 80px 80px;
+}
+.shopping-headline {
+    width: 90%;
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: space-between;
+}
+.shopping-info h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: #0F1724;
+}
+.shopping-info p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    color: #667085;
+}
+.shopping-btn button{
+    padding: 11px 16px;
+    background-color: #f6fbff;
+    border: 1px solid #acacac;
+    border-radius: 6px;
+}
+.product_section{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 280px;
+}
+.card .card_img{
+    width: 280px;
+    height: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    position: relative;
+    background-image: url(https://tokyobay.com/cdn/shop/products/vela-ivory-910585.jpg?v=1661783079&width=1100);
+}
+.product__sale{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-weight: 600;
+    font-size: 11px;
+    padding: 5px 10px;
+    color: #0F1724;
+    border-radius: 4px;
+    background-color: #ffeeee;
+}
+.card-info{
+    padding: 12px 0 16px 0;
+    width: 280px;
+}
+.card-info h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #0F1724;
+}
+.card-info p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #667085;
+    margin: 10px 0;
+}
+.price-order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-order span{
+    font-weight: 600;
+    font-size: 16px;
+    color: #0F1724;
+}
+.price-order button{
+    padding: 9px 12px;
+    border: none;
+    background-color: #FF0105;
+    border-radius: 6px;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+.price-order button:hover{
+    border: 1px solid #FF0105;
+    background-color: #FFFFFF;
+    color: #FF0105;
+}
+.card_imgnd{
+    width: 280px;
+    height: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    position: relative;
+    background-image: url(https://hrd-live.cdn.scayle.cloud/images/cd36f8506915a330bbb9003c31b0d372.jpg?quality=75);
+}
+.card_imgrd{
+    width: 280px;
+    height: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    position: relative;
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSOQ12Lf7n71zlCOu6BR_xFCfGb4lkU0CFyjvspd1keuGF7XLde);
+}
+.card_imgth{
+    width: 280px;
+    height: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    position: relative;
+    background-image: url(https://avatars.mds.yandex.net/get-mpic/3927667/2a00000190793e84602cdccf5e6c4bbeb8c2/orig);
+}
+.footer-main{
+    background-color: #0F1724;
+    padding: 80px 80px;
+}
+.footer{
+    display: flex;
+}
+.footer-info{
+    width: 400px;
+}
+.footer-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footer-logo img{
+    width: 35px;
+    height: 35px;
+}
+.footer-logo h3{
+    font-weight: 800;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footer-info p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+    color: #94A3B8;
+}
+.footer-links {
+    margin-right: 64px;
+    width: 200px;
+}
+.footer-links ul li{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #94A3B8;
+    font-weight: 400;
+}
+.footer-links ul li:first-child{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+.company {
+    margin-right: 64px;
+    width: 200px;
+}
+.company ul li{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #94A3B8;
+    font-weight: 400;
+}
+.company ul li:first-child{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+.support {
+    width: 200px;
+    margin-right: 64px;
+}
+.support ul li{
+    font-size: 14px;
+    color: #94A3B8;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.support ul li:first-child{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+.last {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #94A3B8;
+}
+.last p{
+    color: #94A3B8;
+    padding-top: 30px;
+}
+.last .last-icons{
+    padding-top: 30px;
+    color: #94A3B8;
+}
+
+
+
+@media only screen and (max-width: 992px){
+    header {
+        display: flex;
+        padding: 15px 30px; 
+    }
+    .group{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+    .container{
+        padding: 0 30px;
+    }
+    .main-container{
+        height: auto;
+        padding: 30px 0;
+        
+    }
+    .main-info{
+        width: 400px;
+        height: 300px;
+        margin-right: 30px;
+    }
+    .main-img{
+        width: 350px;
+        margin-left: -120px;
+    }
+    .main-img img{
+        width: 350px;
+        height: 300px;
+    }
+    .main-info h1{
+        font-size: 30px;
+        width: 300px;
+    }
+    .main-info p{
+        margin: 15px 0;
+        width: 270px;
+    }
+    .main-btns{
+        display: flex;
+    }
+    .main-btns button{
+        padding: 10px 15px;
+    }
+    .main-btns #nd-btn{
+        padding: 10px 15px;
+    }
+    .section{
+        height: auto;
+    }
+    .section-info{
+        text-align: center;
+        margin-left: -150px;
+    }
+    .section-categories{
+        flex-wrap: wrap;
+        padding-left: 70px;
+    }
+    .sec-cart{
+        margin-bottom: 20px;
+    }
+    .shopping-headline{
+        display: flex;
+        
+    }
+}
+@media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 576px){
+
+}
