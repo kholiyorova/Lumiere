@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD exam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/108bf8fc2f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+      <div class="main_container">
+        <div class="form_card">
+            <h2>New User</h2>
+            <div class="input_box">
+                <label>Name</label>
+                <input type="text" id="userName" placeholder="Your Name">
+            </div>
+            <div class="input_box">
+                <label>Phone number</label>
+                <input type="text" id="userPhone" placeholder="Your Phone">
+            </div>
+            <div class="input_box">
+                <label>Group</label>
+                <input type="text" id="Group" placeholder="For e. Frontend">
+            </div>
+            <div class="input_box">
+                <label>Day/time</label>
+                <input type="text" id="day/time" placeholder="For e. Odd//8-10">
+            </div>
+            <button id="addBtn" class="main_btn">Add to list</button>
+            <button id="editInfo" class="edit-info_btn">Edit the info</button>
+        </div>
+        <div class="table_card">
+            <div class="table_headline">
+                <h2>List of users</h2>
+                <span class="usercount">Jami: <span id="Countusers">0</span></span>
+            </div>
+            <div class="table_part">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>User</th>
+                        <th>Phone number</th>
+                        <th>Group</th>
+                        <th>Day/time</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <tr>
+                        <td>1</td>
+                        <td><b>Ali Husanov</b></td>
+                        <td>+998 (90) 123 45 67</td>
+                        <td>Frontend</td>
+                        <td>odd/8-10</td>
+                        <td class="action_btns">
+                            <button class="edit_btn"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button class="del_btn"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                    </tr>
+                    
+                    
+                </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
